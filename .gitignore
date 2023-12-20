@@ -1,2 +1,5 @@
-.ipynb_checkpoints
+# Ignorar la carpeta .ipynb_checkpoints en cualquier lugar del proyecto
+**/.ipynb_checkpoints/
+
+# Ignorar el archivo conexiones.properties en cualquier lugar del proyecto
 conexiones.properties
