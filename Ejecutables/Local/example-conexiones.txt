@@ -1,0 +1,11 @@
+
+In this directory (Local), files for necessary connections (e.g., to databases) should be placed. These files must be named in the format: connection_name.properties (example: conexiones.properties, and inside, they should appear as follows:
+
+[CONTEXT]
+TELEGRAM_TOKEN=XXXXXXXXX
+TELEGRAM_BOT_NAME=XXXXXXXXX
+DB_HOST=XXXXXXXXX
+DB_USER=XXXXXXXXX
+DB_PASS=XXXXXXXXX
+DB_NAME=XXXXXXXXX
+TIME_ZONE=America/Argentina/Cordoba

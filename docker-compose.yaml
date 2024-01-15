@@ -1,0 +1,13 @@
+version: '1.0'
+
+services:
+  python-notebook:
+    image: quaino/jupyter-notebook-ml:1.0
+    build:
+      context: .
+    volumes:
+      - ./Ejecutables:/home/jovyan/work # Se deben agregar los archivos .properties a la carpeta Ejecutables/Local
+    ports:
+      - "8888:8888"
+    #Uncomment the following line if you want the Clasificador.ipynb to run at Jupyter startup
+    #command: jupyter nbconvert --to script --execute --ExecutePreprocessor.timeout=-1 Clasificador.ipynb && python Clasificador.py
